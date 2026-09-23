@@ -1,0 +1,11 @@
+nano calculadora.py
+nano executar.sh
+chmod +x executar.sh
+./executar.sh
+
+git init
+git add .
+git commit -m "Primeira versão do projeto"
+git branch -M main
+git remote add origin URL_DO_REPOSITORIO
+git push -u origin main
